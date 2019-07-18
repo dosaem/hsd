@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>hsd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7a00bfcb74304187a35fba33fba66ff8&libraries=services"
+    ></script>
+    <script src="js/index.js"></script>
+
+    <script src="js/map.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="header">
+          <h1>
+            <a href="index.html">한솥도시락</a>
+          </h1>
+          <div id="nav" class="nav">
+            <h2 class="hide">주요메뉴</h2>
+            <ul class="menu01">
+              <li>
+                <a href="#">한솥</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">스토리</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">전체메뉴</a></li>
+                    <li><a href="gfm.html">식재료이야기</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">새소식</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">한솥뉴스</a></li>
+                    <li><a href="#">이벤트</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">고객센터</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공지사항</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">스토어</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">주변점포찾기</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="nav_02">
+            <ul class="menu02">
+              <li class="bar"><a href="#">로그인</a></li>
+              <li><a href="register.html">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div id="main">
+        <div class="map_box">
+          <h2>가까운 매장을 찾아보세요</h2>
+
+          <div
+            id="map"
+            style="width:100%;height:100%;position:relative;overflow:hidden;"
+          ></div>
+
+          <div id="menu_wrap" class="bg_white">
+            <div class="option">
+              <div>
+                <form id="searchF">
+                  지역 :
+                  <input type="text" value="" id="keyword" size="15" />
+                  <button type="submit">검색하기</button>
+                </form>
+              </div>
+            </div>
+            <hr />
+            <ul id="placesList"></ul>
+            <div id="pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footer_center">
+          <div class="ft_menu">
+            <ul>
+              <li class="first_be"><a href="#">인재채용</a></li>
+              <li><a href="#">협력업체등록</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">고객 센터</a></li>
+              <li><a href="#">개인정보취급방침</a></li>
+              <li><a href="#">이용약관</a></li>
+            </ul>
+          </div>
+
+          <div class="ft_info_wrap">
+            <div class="ft_info">
+              <span class="first_be">대표이사 이영덕</span>
+              <span>사업자등록번호 214-81-96569</span>
+              <span>서울시 강남구 강남대로 318(역삼동) 타워837빌딩 8,9층</span>
+              <span>T. 02-585-1114</span>
+              <span>F. 02-598-1116</span>
+            </div>
+            <div class="ft_info2">
+              <span class="first_be">E. webmaster@hsd.co.kr</span>
+              <span>한솥 도시락 고객센터 02-585-1114</span>
+              <span>전국창업설명회 1811-0188</span>
+              <span>단체주문 1644-3288</span>
+            </div>
+
+            <p class="copyright">
+              COPYRIGHT<span>©</span>㈜한솥. ALL RIGHTS RESERVED.
+            </p>
+
+            <div class="ft_sns">
+              <a
+                href="https://www.instagram.com/hansot_official/"
+                target="_blank"
+                title="새 창 열림"
+                class="sns_insta_02"
+                ><span class="blind">instagram</span></a
+              >
+              <a
+                href="https://www.facebook.com/hansotOfficial/?ref=ts&amp;fref=ts"
+                target="_blank"
+                class="sns_face_02"
+                title="새 창 열림"
+                ><span class="blind">facebook</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

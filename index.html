@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>hsd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/jquery.bxslider.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/jquery-ui.css"
+    />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="header">
+          <h1>
+            <a href="index.html">한솥도시락</a>
+          </h1>
+          <div id="nav" class="nav">
+            <h2 class="hide">주요메뉴</h2>
+            <ul class="menu01">
+              <li>
+                <a href="#">한솥</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">스토리</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">전체메뉴</a></li>
+                    <li><a href="story.html">식재료이야기</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">새소식</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">한솥뉴스</a></li>
+                    <li><a href="#">이벤트</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">고객센터</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공지사항</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">스토어</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="map.html">주변점포찾기</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="nav_02">
+            <ul class="menu02">
+              <li class="bar"><a href="login.html">로그인</a></li>
+              <li><a href="register.html">회원가입</a></li>
+            </ul>
+          </div>
+          <!-- <div id="nav2" class="nav2 hide">
+            <h2 class="hide">주요메뉴</h2>
+            <ul class="menu01">
+              <li>
+                <a href="#">한솥</a>
+                <div class="dnav2">
+                  <ul>
+                    <li><a href="#">스토리</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <div class="dnav2">
+                  <ul>
+                    <li><a href="#">전체메뉴</a></li>
+                    <li><a href="gfm.html">식재료이야기</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">새소식</a>
+                <div class="dnav2">
+                  <ul>
+                    <li><a href="#">한솥뉴스</a></li>
+                    <li><a href="#">이벤트</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">고객센터</a>
+                <div class="dnav" 2>
+                  <ul>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공지사항</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">스토어</a>
+                <div class="dnav2">
+                  <ul>
+                    <li><a href="#">주변점포찾기</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </header>
+
+      <div id="main">
+        <div class="main_slide">
+          <ul class="bg_img">
+            <!-- <li class="event_01">이벤트01</li>
+            <li class="event_02">이벤트02</li>
+            <li class="event_03">이벤트03</li>
+            <li class="event_04">이벤트04</li> -->
+            <li>
+              <a><img src="images/main_slide_01.jpg" alt="한솥"/></a>
+            </li>
+            <li>
+              <a><img src="images/main_slide_02.jpg" alt="한솥"/></a>
+            </li>
+            <li>
+              <a><img src="images/main_slide_03.jpg" alt="한솥"/></a>
+            </li>
+            <li>
+              <a><img src="images/main_slide_04.jpg" alt="한솥"/></a>
+            </li>
+          </ul>
+        </div>
+        <div class="best_menu">
+          <div class="best_menu_box">
+            <h2>베스트 메뉴</h2>
+            <div class="tab">
+              <ul class="tabs">
+                <li id="default" class="tab-link" data-tab="tab1">
+                  프리미엄
+                </li>
+                <li class="tab-link" data-tab="tab2">고메이</li>
+                <li class="tab-link" data-tab="tab3">사각도시락</li>
+                <li class="tab-link" data-tab="tab4">보올도시락</li>
+              </ul>
+            </div>
+          </div>
+          <div id="best_menu_slider" class="best_menu_slider"></div>
+        </div>
+        <div class="good_food_mat">
+          <a href="story.html"><h2>좋은 식재료</h2> </a>
+          <div class="gfm_text">
+            <h3>식재료 앞에서는<br />한없이<br />까다롭습니다.</h3>
+            <p>
+              맑고 깨끗한 자연 환경 속에서 재배된 식재료가<br />
+              아니면 한솥이 될 수 없습니다.<br />
+              모든 식재료는 고객분들이 안심하고 드실 수 있도록<br />
+              엄격한 기준 아래선별됩니다.
+            </p>
+          </div>
+        </div>
+        <div class="menu_bottom">
+          <div class="news">
+            <h2>새소식</h2>
+            <h3>
+              한솥의 다양한 소식을 <br />
+              빠르게 전달해 드립니다.
+            </h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.mk.co.kr/news/business/view/2019/02/119266/"
+                  target="_blank"
+                >
+                  한솥도시락 3월 신메뉴 ‘버터간장 스크램블’ 한정 판매</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.mk.co.kr/news/business/view/2019/01/60632/"
+                  target="_blank"
+                >
+                  찹쌀 탕수육 출시 및 프로모션 실시</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.mk.co.kr/news/business/view/2019/01/65226/"
+                  target="_blank"
+                  >‘100원씩 기부되는 착한도시락’ 행사</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.mk.co.kr/news/business/view/2019/01/63481/"
+                  target="_blank"
+                  >2019 소비자 선정 최고의 브랜드 대상</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.mk.co.kr/news/business/view/2018/12/813654/"
+                  target="_blank"
+                  >한솥도시락 요일별 할인행사 실시</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="find_store">
+            <h2>매장찾기</h2>
+            <h3>
+              가까운 한솥 매장을 <br />
+              확인해보세요.
+            </h3>
+            <div class="find_store_search">
+              <form name="findstore" method="get" action="map.html">
+                <input
+                  id="store_search"
+                  name="main_search"
+                  title="매장검색"
+                  placeholder="FIND A STORE"
+                />
+                <a
+                  id="mapBtn"
+                  href="#"
+                  onClick="javascript:document.findstore.submit();"
+                >
+                  <img src="images/findstore.jpg" alt="검색" />
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footer_center">
+          <div class="ft_menu">
+            <ul>
+              <li class="first_be"><a href="#">인재채용</a></li>
+              <li><a href="#">협력업체등록</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">고객 센터</a></li>
+              <li><a href="#">개인정보취급방침</a></li>
+              <li><a href="#">이용약관</a></li>
+            </ul>
+          </div>
+
+          <div class="ft_info_wrap">
+            <div class="ft_info">
+              <span class="first_be">대표이사 이영덕</span>
+              <span>사업자등록번호 214-81-96569</span>
+              <span>서울시 강남구 강남대로 318(역삼동) 타워837빌딩 8,9층</span>
+              <span>T. 02-585-1114</span>
+              <span>F. 02-598-1116</span>
+            </div>
+            <div class="ft_info2">
+              <span class="first_be">E. webmaster@hsd.co.kr</span>
+              <span>한솥 도시락 고객센터 02-585-1114</span>
+              <span>전국창업설명회 1811-0188</span>
+              <span>단체주문 1644-3288</span>
+            </div>
+
+            <p class="copyright">
+              COPYRIGHT<span>©</span>㈜한솥. ALL RIGHTS RESERVED.
+            </p>
+
+            <div class="ft_sns">
+              <a
+                href="https://www.instagram.com/hansot_official/"
+                target="_blank"
+                title="새 창 열림"
+                class="sns_insta_02"
+                ><span class="blind">instagram</span></a
+              >
+              <a
+                href="https://www.facebook.com/hansotOfficial/?ref=ts&amp;fref=ts"
+                target="_blank"
+                class="sns_face_02"
+                title="새 창 열림"
+                ><span class="blind">facebook</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

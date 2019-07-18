@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>hsd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/story.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/jquery.bxslider.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/jquery-ui.css"
+    />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="header">
+          <h1>
+            <a href="index.html">한솥도시락</a>
+          </h1>
+          <div id="nav" class="nav">
+            <h2 class="hide">주요메뉴</h2>
+            <ul class="menu01">
+              <li>
+                <a href="#">한솥</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">스토리</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">전체메뉴</a></li>
+                    <li><a href="story.html">식재료이야기</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">새소식</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">한솥뉴스</a></li>
+                    <li><a href="#">이벤트</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">고객센터</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공지사항</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">스토어</a>
+                <div class="dnav">
+                  <ul>
+                    <li><a href="#">주변점포찾기</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="nav_02">
+            <ul class="menu02">
+              <li class="bar"><a href="login.html">로그인</a></li>
+              <li><a href="register.html">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div id="container" class="sub_page bg">
+        <div class="content menu list">
+          <!-- menu_material -->
+          <section class="menu_material">
+            <div class="mat_section section_01">
+              <p class="menu_tit mo_version">식재료 이야기</p>
+              <div
+                class="mat_cont mo_tr hidden visible animated fadeInUp full-visible"
+              >
+                <h2 class="h2_tit">
+                  <span class="s_block">식재료 앞에서는</span>
+                  <span class="s_block">한없이 까탈스럽습니다.</span>
+                </h2>
+                <div class="mat_txt">
+                  <p>
+                    <span class="s_block"
+                      >맑고 깨끗한 자연 환경속에서 재배된 식재료가 아니면 한솥이
+                      될 수 없습니다.</span
+                    >
+                    <span class="s_block"
+                      >모든 식재료는 고객분들이 안심하고 드실 수 있도록 엄격한
+                      기준 아래 선별됩니다.</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- //section01 -->
+            <!-- section02 -->
+            <div class="mat_section section_02">
+              <div
+                class="mat_cont hidden visible animated fadeInUp full-visible"
+              >
+                <div class="mat_img mo_tr">
+                  <img
+                    src="./images/material_img_01.jpg"
+                    alt="김치이야기 이미지1"
+                  />
+                </div>
+                <div class="mat_txt_wrap">
+                  <h3 class="h3_tit fz_01">
+                    <em class="emphasis">김치 이야기</em>
+                    <span class="s_block"
+                      ><em class="ma_f">100</em>% 국내산 김치</span
+                    >
+                  </h3>
+                  <div class="mat_txt">
+                    <p>
+                      <span class="s_block"
+                        >땅 좋고 물좋은 해남, 평창, 태백에서 재배한 배추에
+                        국내산</span
+                      >
+                      <span class="s_block"
+                        >고춧가루와 마늘, 젓갈 등 우리 농산물만 오롯이
+                        사용하여</span
+                      >
+                      <span class="s_block">한솥김치를 만들었습니다.</span>
+                    </p>
+                    <span class="mat_seimg"
+                      ><img
+                        src="./images/material_img_02.jpg"
+                        alt="김치이야기 이야기2"
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //section02 -->
+
+            <!-- section04 -->
+            <div class="mat_section section_04">
+              <div class="mat_cont mo_tr hidden visible animated fadeInUp">
+                <div class="mat_txt_wrap">
+                  <h3 class="h3_tit fz_01">
+                    <em class="emphasis">쌀 이야기</em>
+                    <span class="s_block">품질 좋은 신동진</span>
+                    <span class="s_block">단일 품종 쌀</span>
+                  </h3>
+                  <div class="mat_txt">
+                    <p>
+                      <span class="s_block"
+                        >청정지역에서 생산된 최고 품질의 무세미 신동진</span
+                      >
+                      <span class="s_block"
+                        >단일미를 도입하여 철저한 품질관리 및 엄격한</span
+                      >
+                      <span class="s_block"
+                        >테스트를 통해 수분, 단백질, 아밀로스 햠량을</span
+                      >
+                      <span class="s_block"
+                        >우수한 수준으로 유지하고 있습니다.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //section04 -->
+
+            <!-- section03 -->
+            <div class="mat_section section_03">
+              <div class="mat_cont hidden visible animated fadeInUp">
+                <div class="mat_img mo_tr">
+                  <img
+                    src="./images/material_img_03.jpg"
+                    alt="고기이야기 이미지"
+                  />
+                </div>
+                <div class="mat_txt_wrap">
+                  <h3 class="h3_tit fz_01">
+                    <em class="emphasis">고기 이야기</em>
+                    <span class="s_block">최고의 품질과 풍미를</span>
+                    <span class="s_block">자랑하는 명품 육류</span>
+                  </h3>
+                  <div class="mat_txt">
+                    <p>
+                      <strong>불고기는 청정 호주산 목심</strong>
+                      <span class="s_block"
+                        >청정 호주산 S등급, A등급의 목심만을 사용하며 최첨단
+                        전산시스템으로 이력</span
+                      >
+                      <span class="s_block"
+                        >추적이 가능하고, 위생적인 HACCP인증 가공장에서 생산하여
+                        제공합니다.</span
+                      >
+                    </p>
+                    <p>
+                      <strong>제육볶음은 미국산 목전지</strong>
+                      <span class="s_block"
+                        >살코기와 지방이 골고루 섞인 미국산 목전지를 사용한
+                        제육볶음을 엄격한</span
+                      >
+                      <span class="s_block">품질 관리를 통해 제공합니다.</span>
+                    </p>
+                    <p>
+                      <strong>돈까스는 국내산 돼지고기</strong>
+                      <span class="s_block"
+                        >돈까스, 함박스테이크, 떡햄버그, 탕수육, 김치찌개,
+                        소시지 등 모두 국내산</span
+                      >
+                      <span class="s_block">돼지고기를 사용합니다.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //section03 -->
+
+            <!-- section06 -->
+            <div class="mat_section section_06">
+              <div class="mat_cont mo_tr hidden visible animated fadeInUp">
+                <div class="mat_txt_wrap">
+                  <h3 class="h3_tit fz_01">
+                    <em class="emphasis">고등어 이야기</em>
+                    <span class="s_block">안심하고 먹을 수 있는</span>
+                    <span class="s_block">고등어</span>
+                  </h3>
+                  <div class="mat_txt">
+                    <p>
+                      <span class="s_block"
+                        >노르웨이 청정해역에서 자란 신선한 고등어를 뼈와 가시를
+                        모두 발라내어</span
+                      >
+                      <span class="s_block">먹기 좋게 만들었습니다.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //section06 -->
+          </section>
+          <!-- //menu_material -->
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footer_center">
+          <div class="ft_menu">
+            <ul>
+              <li class="first_be"><a href="#">인재채용</a></li>
+              <li><a href="#">협력업체등록</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">고객 센터</a></li>
+              <li><a href="#">개인정보취급방침</a></li>
+              <li><a href="#">이용약관</a></li>
+            </ul>
+          </div>
+
+          <div class="ft_info_wrap">
+            <div class="ft_info">
+              <span class="first_be">대표이사 이영덕</span>
+              <span>사업자등록번호 214-81-96569</span>
+              <span>서울시 강남구 강남대로 318(역삼동) 타워837빌딩 8,9층</span>
+              <span>T. 02-585-1114</span>
+              <span>F. 02-598-1116</span>
+            </div>
+            <div class="ft_info2">
+              <span class="first_be">E. webmaster@hsd.co.kr</span>
+              <span>한솥 도시락 고객센터 02-585-1114</span>
+              <span>전국창업설명회 1811-0188</span>
+              <span>단체주문 1644-3288</span>
+            </div>
+
+            <p class="copyright">
+              COPYRIGHT<span>©</span>㈜한솥. ALL RIGHTS RESERVED.
+            </p>
+
+            <div class="ft_sns">
+              <a
+                href="https://www.instagram.com/hansot_official/"
+                target="_blank"
+                title="새 창 열림"
+                class="sns_insta_02"
+                ><span class="blind">instagram</span></a
+              >
+              <a
+                href="https://www.facebook.com/hansotOfficial/?ref=ts&amp;fref=ts"
+                target="_blank"
+                class="sns_face_02"
+                title="새 창 열림"
+                ><span class="blind">facebook</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
